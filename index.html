@@ -12,31 +12,45 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo Bhaijaan" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="style/animate.css" type="text/css" rel="stylesheet">
+    <link href="style/animate.min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <title>Lorem Tech Solutions</title>
 
 </head>
 
 <body>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    
     <section id="section1">
+       
         <div id="navigation">
+          <div id="wrapper">
            <div class="row">
-               <div class="col-md-6 col-xs-12">
+               <div class="col-lg-6 col-md-3 col-xs-12">
                      <a id="logo" href="">Lorem <br>Tech Solutions</a>
                </div>
                
-               <div class="col-md-6 col-xs-12">
+               <div class="col-lg-6 col-md-9 col-xs-12">
+                     <a href=""><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
                      <ul>
                        <a href="#section1"><li>Home</li></a>
                        <a href="#section2"><li>Services</li></a>
                        <a href="#section3"><li>Team</li></a>
                        <a href="#section4"><li>Testimonials</li></a>
                        <a href="#section5"><li>Contact</li></a>
-                    </ul>  
+                    </ul>
+                    
                </div>
-           </div>  
+           </div>
+          </div>  
         </div>
-        
+       
+         
         <div class="overlay">
         <div id="showcase">
                <div id="mission-statement">
@@ -66,29 +80,41 @@
     <section id="section2">
         <div id="services">
             <h3>What We Do</h3>
-            <div class="container-fluid">
+               <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-12">
+                      <div class="animated fadeInUp">
+                      <div class="service">
                        <p>Design</p>
                        <img src="images/browser(1).png" alt=""> 
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem fugiat error totam, iure cum quod eaque corporis porro, magni maxime. Nobis corrupti rerum ab odio temporibus sint quos deserunt atque!</p>
+                       <p class="service-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem fugiat error totam, iure cum quod eaque corporis porro, magni maxime. Nobis corrupti rerum ab odio temporibus sint quos deserunt atque!</p>
                        <a href="">Learn More</a>
+                      </div>
+                      </div>
                     </div>
-                    <div class="col-md-4">
-                       <p>Innovation</p>
+                    <div class="col-md-4 col-xs-12">
+                      <div class="animated fadeInUp">
+                      <div class="service">
+                       <p class="service-title">Innovation</p>
                        <img src="images/puzzle.png" alt="">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in nemo porro, atque nihil eaque quis. Similique sit explicabo, ea ipsa alias praesentium, placeat repellat voluptates architecto nam dolor inventore.</p>
+                       <p class="service-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in nemo porro, atque nihil eaque quis. Similique sit explicabo, ea ipsa alias praesentium, placeat repellat voluptates architecto nam dolor inventore.</p>
                        <a href="">Learn More</a>
+                       </div>
+                      </div>
                     </div>
-                    <div class="col-md-4">
-                        <p>Consulting</p>
+                    <div class="col-md-4 col-xs-12">
+                       <div class="animated fadeInUp">
+                       <div class="service">
+                        <p class="service-title">Consulting</p>
                         <img src="images/analytics.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis hic cum temporibus enim voluptatum at nesciunt earum, dolore dolorum quos sequi, atque non quibusdam fugiat alias ipsum velit totam sed.</p>
+                        <p class="service-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis hic cum temporibus enim voluptatum at nesciunt earum, dolore dolorum quos sequi, atque non quibusdam fugiat alias ipsum velit totam sed.</p>
                         <a href="">Learn More</a>
+                        </div>
+                      </div>
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
     </section>
     
     <section id="section3">
@@ -176,14 +202,15 @@
     </section>
     
     <section id="section6">
-       
         <div id="cp">
             <p>&copy; 2017 Lorem Tech Solutions, LLC</p>
         </div>
-       
     </section>
     
+    
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>   
+<script src="js/main.js"></script>
 </body>
 
 </html>
