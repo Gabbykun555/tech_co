@@ -70,6 +70,7 @@ h3 {
 
 #logo {
     color: #F19F4D;
+    font-family: "Varela Round";
     font-weight: bold;
 }
 
@@ -94,7 +95,7 @@ h3 {
 
 #mission-statement {
     width: 100%;
-    padding: 15% 10%;
+    padding: 13% 10%;
     color: #FFF;
 }
 
